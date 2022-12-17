@@ -1,4 +1,24 @@
 {
+  "rootCategories": [
+    {
+      "code": "tool",
+      "name": "工具",
+      "description": "快捷找到想要的工具",
+      "icon": "https://static.ssstab.com/images/tool.svg"
+    },
+    {
+      "code": "explore",
+      "name": "探索",
+      "description": "探索与发现",
+      "icon": "https://static.ssstab.com/images/explore.svg"
+    },
+    {
+      "code": "chrome",
+      "name": "扩展版",
+      "description": "chrome浏览器扩展版",
+      "icon": "https://static.ssstab.com/images/chrome.svg"
+    }
+  ],
   "apps": [
     {
       "id": "tool",
