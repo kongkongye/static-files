@@ -1,0 +1,141 @@
+{
+  "apps": [
+    {
+      "id": "tool",
+      "name": "在线工具搜索",
+      "categories": [
+        "tool"
+      ],
+      "icon": "https://static.ssstab.com/images/web.svg",
+      "pages": [
+        {
+          "code": "main",
+          "name": "工具搜索",
+          "description": "在线工具网页搜索",
+          "cmds": [
+            "在线工具搜索",
+            "tools search"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "image",
+      "name": "随机图片",
+      "categories": [
+        "explore"
+      ],
+      "icon": "https://static.ssstab.com/images/image.svg",
+      "pages": [
+        {
+          "code": "main",
+          "name": "随机图片",
+          "description": "随机图片展示",
+          "cmds": [
+            "随机图片",
+            "random images"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tab",
+      "name": "标签页搜索",
+      "categories": [
+        "chrome"
+      ],
+      "icon": "https://static.ssstab.com/images/tab.svg",
+      "pages": [
+        {
+          "code": "tab",
+          "name": "标签页搜索",
+          "description": "打开的标签页搜索",
+          "cmds": [
+            "标签页搜索",
+            {
+              "type": "plain",
+              "value": "Tab Search"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bookmark",
+      "name": "书签搜索",
+      "categories": [
+        "chrome"
+      ],
+      "icon": "https://static.ssstab.com/images/bookmark.svg",
+      "pages": [
+        {
+          "code": "main",
+          "name": "书签搜索",
+          "description": "浏览器书签搜索",
+          "cmds": [
+            "书签搜索",
+            "Bookmark Search"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "name": "历史搜索",
+      "categories": [
+        "chrome"
+      ],
+      "icon": "https://static.ssstab.com/images/history.svg",
+      "pages": [
+        {
+          "code": "main",
+          "name": "历史搜索",
+          "description": "浏览器历史记录搜索",
+          "cmds": [
+            "历史搜索",
+            "History Search"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "extension",
+      "name": "扩展搜索",
+      "categories": [
+        "chrome"
+      ],
+      "icon": "https://static.ssstab.com/images/extension.svg",
+      "pages": [
+        {
+          "code": "main",
+          "name": "扩展搜索",
+          "description": "浏览器已安装扩展搜索",
+          "cmds": [
+            "扩展搜索",
+            "Extension Search"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "builtin",
+      "name": "内置页面",
+      "categories": [
+        "chrome"
+      ],
+      "icon": "https://static.ssstab.com/images/chrome.svg",
+      "pages": [
+        {
+          "code": "main",
+          "name": "内置页面",
+          "description": "打开各种浏览器内置页面",
+          "cmds": [
+            "浏览器内置页面",
+            "builtin page",
+            "inner page"
+          ]
+        }
+      ]
+    }
+  ]
+}
