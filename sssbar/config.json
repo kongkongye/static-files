@@ -88,6 +88,7 @@
       "icon": "https://static.ssstab.com/images/wormhole.gif",
       "pages": [
         {
+          "type": "rss",
           "code": "wormhole",
           "name": "虫洞",
           "description": "十年之约正式成员的博客列表",
