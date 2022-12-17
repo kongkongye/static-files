@@ -80,6 +80,24 @@
       ]
     },
     {
+      "id": "wormhole",
+      "name": "虫洞",
+      "categories": [
+        "explore"
+      ],
+      "icon": "https://static.ssstab.com/images/wormhole.gif",
+      "pages": [
+        {
+          "code": "main",
+          "name": "虫洞",
+          "description": "十年之约正式成员的博客列表",
+          "cmds": [
+            "虫洞"
+          ]
+        }
+      ]
+    },
+    {
       "id": "tab",
       "name": "标签页搜索",
       "categories": [
