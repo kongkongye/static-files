@@ -16676,7 +16676,7 @@
       }
     ],
     "description": "👈点击穿梭随机博客",
-    "icon": "images/wormhole.gif",
+    "icon": "https://static.ssstab.com/images/wormhole.gif",
     "id": "wormhole",
     "name": "虫洞博客列表",
     "url": "https://foreverblog.cn/go.html"

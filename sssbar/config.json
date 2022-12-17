@@ -4,19 +4,19 @@
       "code": "tool",
       "name": "工具",
       "description": "快捷找到想要的工具",
-      "icon": "images/tool.svg"
+      "icon": "https://static.ssstab.com/images/tool.svg"
     },
     {
       "code": "explore",
       "name": "探索",
       "description": "探索与发现",
-      "icon": "images/explore.svg"
+      "icon": "https://static.ssstab.com/images/explore.svg"
     },
     {
       "code": "chrome",
       "name": "扩展版",
       "description": "chrome浏览器扩展版",
-      "icon": "images/chrome.svg"
+      "icon": "https://static.ssstab.com/images/chrome.svg"
     }
   ],
   "apps": [
@@ -26,7 +26,7 @@
       "categories": [
         "tool"
       ],
-      "icon": "images/web.svg",
+      "icon": "https://static.ssstab.com/images/web.svg",
       "pages": [
         {
           "code": "main",
@@ -45,7 +45,7 @@
       "categories": [
         "tool"
       ],
-      "icon": "images/speedtest.svg",
+      "icon": "https://static.ssstab.com/images/speedtest.svg",
       "pages": [
         {
           "type": "iframe",
@@ -66,7 +66,7 @@
       "categories": [
         "explore"
       ],
-      "icon": "images/image.svg",
+      "icon": "https://static.ssstab.com/images/image.svg",
       "pages": [
         {
           "code": "main",
@@ -85,7 +85,7 @@
       "categories": [
         "explore"
       ],
-      "icon": "images/wormhole.gif",
+      "icon": "https://static.ssstab.com/images/wormhole.gif",
       "pages": [
         {
           "type": "rss",
@@ -104,7 +104,7 @@
       "categories": [
         "explore"
       ],
-      "icon": "images/travelling.svg",
+      "icon": "https://static.ssstab.com/images/travelling.svg",
       "pages": [
         {
           "type": "rss",
@@ -123,7 +123,7 @@
       "categories": [
         "chrome"
       ],
-      "icon": "images/tab.svg",
+      "icon": "https://static.ssstab.com/images/tab.svg",
       "pages": [
         {
           "code": "tab",
@@ -145,7 +145,7 @@
       "categories": [
         "chrome"
       ],
-      "icon": "images/bookmark.svg",
+      "icon": "https://static.ssstab.com/images/bookmark.svg",
       "pages": [
         {
           "code": "main",
@@ -164,7 +164,7 @@
       "categories": [
         "chrome"
       ],
-      "icon": "images/history.svg",
+      "icon": "https://static.ssstab.com/images/history.svg",
       "pages": [
         {
           "code": "main",
@@ -183,7 +183,7 @@
       "categories": [
         "chrome"
       ],
-      "icon": "images/extension.svg",
+      "icon": "https://static.ssstab.com/images/extension.svg",
       "pages": [
         {
           "code": "main",
@@ -202,7 +202,7 @@
       "categories": [
         "chrome"
       ],
-      "icon": "images/chrome.svg",
+      "icon": "https://static.ssstab.com/images/chrome.svg",
       "pages": [
         {
           "code": "main",
