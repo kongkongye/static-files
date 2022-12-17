@@ -40,6 +40,27 @@
       ]
     },
     {
+      "id": "speedtest",
+      "name": "网速测试",
+      "categories": [
+        "tool"
+      ],
+      "icon": "https://static.ssstab.com/images/speedtest.svg",
+      "pages": [
+        {
+          "type": "iframe",
+          "code": "main",
+          "name": "网速测试",
+          "cmds": [
+            "网速测试"
+          ],
+          "_iframe": {
+            "url": "https://plugin.speedtest.cn/"
+          }
+        }
+      ]
+    },
+    {
       "id": "image",
       "name": "随机图片",
       "categories": [
