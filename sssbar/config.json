@@ -99,6 +99,25 @@
       ]
     },
     {
+      "id": "travellings",
+      "name": "开往",
+      "categories": [
+        "explore"
+      ],
+      "icon": "https://static.ssstab.com/images/travelling.svg",
+      "pages": [
+        {
+          "type": "rss",
+          "code": "travellings",
+          "name": "开往",
+          "description": "开往博客列表",
+          "cmds": [
+            "开往"
+          ]
+        }
+      ]
+    },
+    {
       "id": "tab",
       "name": "标签页搜索",
       "categories": [
