@@ -1,4 +1,6 @@
 {
+  "wrap": true,
+  "basis": 200,
   "tree": {
     "children": [
       {
