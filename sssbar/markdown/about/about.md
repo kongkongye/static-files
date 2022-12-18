@@ -1,0 +1,10 @@
+sssbar是一个浏览器快捷搜索框。
+
+## 下载
+1. [网页版](https://bar.ssstab.com)
+2. [chrome扩展版](https://chrome.google.com/webstore/detail/sssbar/lbdhkmfihdbjopkhgopfolpompdcpglk)
+3. [utools版](https://www.u.tools/)
+   1. 在utools插件市场搜索`sssbar`即可
+
+## 联系方式
+邮箱: kongkongye@163.com
