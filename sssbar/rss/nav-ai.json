@@ -2,15 +2,43 @@
   "hideAll": true,
   "highlight": true,
   "wrap": true,
-  "basis": 150,
+  "basis": "50%",
   "categories": [
     {
       "code": "chat",
       "name": "社交"
     },
     {
+      "code": "text",
+      "name": "文字"
+    },
+    {
+      "code": "image",
+      "name": "图片"
+    },
+    {
+      "code": "video",
+      "name": "视频"
+    },
+    {
+      "code": "sound",
+      "name": "声音"
+    },
+    {
+      "code": "draw",
+      "name": "画画"
+    },
+    {
       "code": "code",
       "name": "编程"
+    },
+    {
+      "code": "other",
+      "name": "综合"
+    },
+    {
+      "code": "platform",
+      "name": "平台"
     }
   ],
   "trees": [
@@ -20,10 +48,383 @@
       "children": [
         {
           "url": "https://chat.openai.com/chat",
-          "icon": "https://chat.openai.com/favicon.ico",
+          "icon": "images/other/chat.openai.com.png",
           "name": "ChatGPT",
+          "description": "智能聊天",
           "categories": [
             "chat"
+          ]
+        },
+
+        {
+          "url": "https://www.ownthink.com/",
+          "icon": "https://www.ownthink.com/favicon.ico",
+          "name": "思知",
+          "description": "对话机器人、知识图谱、语义理解、语音识别、语音合成、自然语言处理工具.",
+          "categories": [
+            "text"
+          ]
+        },
+        {
+          "url": "https://wyc.5118.com/",
+          "icon": "https://s0.5118img.com/favicon.ico",
+          "name": "智能改写工具",
+          "description": "在线智能改写生成",
+          "categories": [
+            "text"
+          ]
+        },
+        {
+          "url": "https://aippt.wps.cn",
+          "icon": "https://s2.md.wpscdn.cn/project/jimoppt/favicon_20200103.ico",
+          "name": "WPS智能PPT",
+          "description": "WPS智能PPT 是一款快速编辑的文档创作工具。",
+          "categories": [
+            "text"
+          ]
+        },
+        {
+          "url": "https://aimwriting.mtutor.engkoo.com/",
+          "icon": "https://aimwriting.mtutor.engkoo.com/favicon.ico",
+          "name": "微软爱写作",
+          "categories": [
+            "text"
+          ]
+        },
+        {
+          "url": "https://www.giiso.com",
+          "icon": "https://www.giiso.com/favicon.png",
+          "name": "Giiso写作机器人",
+          "description": "智能写作、智能推荐素材、稿件改写、稿件查重、稿件纠错等",
+          "categories": [
+            "text"
+          ]
+        },
+        {
+          "url": "https://effidit.qq.com/",
+          "icon": "https://effidit.qq.com/favicon.png",
+          "name": "Effidit",
+          "description": "腾讯出品",
+          "categories": [
+            "text"
+          ]
+        },
+
+        {
+          "url": "https://waifulabs.com/",
+          "icon": "https://waifulabs.com/images/favicon.png",
+          "name": "Waifu Labs",
+          "description": "魔幻动漫肖像",
+          "categories": [
+            "image"
+          ]
+        },
+        {
+          "url": "https://www.picup.shop/",
+          "icon": "https://www.picup.shop/smallLogo.jpg",
+          "name": "皮卡智能抠图",
+          "description": "视频剪辑,ps抠图,图片去水印,照片动漫,视频抠图等.",
+          "categories": [
+            "image"
+          ]
+        },
+        {
+          "url": "https://cleanup.pictures/",
+          "icon": "https://cleanup.pictures/favicon.ico",
+          "name": "Cleanup.pictures",
+          "description": "删除照片、人物、文本中不需要的对象，以及任何图片中的缺陷。",
+          "categories": [
+            "image"
+          ]
+        },
+        {
+          "url": "https://photokit.com/",
+          "icon": "https://photokit.com/images/icon256.png",
+          "name": "PhotoKit",
+          "description": "在线照片编辑器，抠图，裁剪、调整大小、旋转和应用基本编辑。",
+          "categories": [
+            "image"
+          ]
+        },
+        {
+          "url": "https://looka.com/",
+          "icon": "https://cdn.logojoy.com/wp-content/uploads/20190607113635/cropped-favicon-192x192.png",
+          "name": "Looka",
+          "description": "生成商标LOGO",
+          "categories": [
+            "image"
+          ]
+        },
+        {
+          "url": "https://www.logosc.cn/",
+          "icon": "https://www.logosc.cn/favicon-logosc.ico?v=4",
+          "name": "标小智LOGO神器",
+          "description": "只需输入品牌名称就能免费在线生成公司logo设计，商标设计，以及配套企业VI助您打造个性品牌。",
+          "categories": [
+            "image"
+          ]
+        },
+        {
+          "url": "https://toonme.com/",
+          "icon": "https://toonme.com/favicon.ico",
+          "name": "toonme",
+          "description": "生成3D卡通头像",
+          "categories": [
+            "image"
+          ]
+        },
+        {
+          "url": "http://www.seeprettyface.com/",
+          "icon": "http://www.seeprettyface.com/favicon.ico",
+          "name": "糖衣炮弹",
+          "description": "虚拟人脸生成",
+          "categories": [
+            "image"
+          ]
+        },
+        {
+          "url": "https://petalica.com/index_zh.html",
+          "icon": "https://petalica.com/images/android-icon-192x192.png",
+          "name": "Petalica paint",
+          "description": "线稿自动上色服务",
+          "categories": [
+            "image"
+          ]
+        },
+        {
+          "url": "https://bigjpg.com/",
+          "icon": "https://bigjpg.com/htdocs/favicon.ico",
+          "name": "Bigjpg",
+          "description": "AI人工智能图片放大",
+          "categories": [
+            "image"
+          ]
+        },
+        {
+          "url": "https://www.geometrize.co.uk/",
+          "icon": "https://www.geometrize.co.uk/icon/favicon.png",
+          "name": "Geometrize",
+          "description": "照片几何化处理",
+          "categories": [
+            "image"
+          ]
+        },
+        {
+          "url": "https://www.artbreeder.com/",
+          "icon": "https://www.artbreeder.com/favicon-light.png",
+          "name": "Artbreeder",
+          "description": "混合多张图片生成新图片",
+          "categories": [
+            "image"
+          ]
+        },
+        {
+          "url": "https://github.com/TencentARC/GFPGAN",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "name": "GFPGAN",
+          "description": "让图片变清晰",
+          "categories": [
+            "image"
+          ]
+        },
+        {
+          "url": "https://github.com/adamian98/pulse",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "name": "PULSE",
+          "description": "去除人脸马赛克",
+          "categories": [
+            "image"
+          ]
+        },
+
+        {
+          "url": "https://www.synthesia.io/",
+          "icon": "https://assets-global.website-files.com/61dc0796f359b6145bc06ea6/61dc0796f359b6681ac07045_favicon.ico",
+          "name": "Synthesia",
+          "description": "文字生成视频",
+          "categories": [
+            "video"
+          ]
+        },
+        {
+          "url": "https://github.com/AaronFeng753/Waifu2x-Extension-GUI",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "name": "Waifu2x-Extension-GUI",
+          "description": "图片视频无损放大",
+          "categories": [
+            "video"
+          ]
+        },
+
+        {
+          "url": "https://www.lalal.ai/zh-hans/",
+          "icon": "https://www.lalal.ai/favicon.ico",
+          "name": "LALAL.AI",
+          "description": "使用Lalal.ai快速准确地分割人声和器乐曲目。上传任何音频文件并在几秒钟内接收高质量的提取曲目。",
+          "categories": [
+            "sound"
+          ]
+        },
+        {
+          "url": "https://yuedu.data-baker.com",
+          "icon": "http://yuedu.data-baker.com/favicon.ico",
+          "name": "标贝悦读",
+          "description": "文字转语音。",
+          "categories": [
+            "sound"
+          ]
+        },
+
+        {
+          "url": "https://www.aizuohua.com/",
+          "icon": "images/other/aizuohua.com.ico",
+          "name": "爱作画",
+          "categories": [
+            "draw"
+          ]
+        },
+        {
+          "url": "https://aigc.wondershare.cn/",
+          "icon": "https://www.wondershare.cn/images/images2022/aigc/aihuihua-icon.png",
+          "name": "万兴AI绘画",
+          "categories": [
+            "draw"
+          ]
+        },
+        {
+          "url": "https://www.zcool.com.cn/ailab",
+          "icon": "images/other/zcool.com.cn.png",
+          "name": "站酷梦笔",
+          "categories": [
+            "draw"
+          ]
+        },
+        {
+          "url": "https://printidea.art/",
+          "icon": "https://printidea.art/favicon.ico",
+          "name": "盗梦师",
+          "categories": [
+            "draw"
+          ]
+        },
+        {
+          "url": "https://yige.baidu.com/",
+          "icon": "https://yige.baidu.com/favicon.ico",
+          "name": "文心一格",
+          "description": "百度出品",
+          "categories": [
+            "draw"
+          ]
+        },
+        {
+          "url": "https://chat.openai.com/chat",
+          "icon": "https://6pen.art/favicon.svg",
+          "name": "6pen Art",
+          "description": "中文AI绘画平台",
+          "categories": [
+            "draw"
+          ]
+        },
+        {
+          "url": "https://dream.ai",
+          "icon": "https://dream.ai/favicon.ico",
+          "name": "Dream by WOMBO",
+          "description": "输入提示，选择一种艺术风格，并观看WOMBO Dream在几秒钟内将您的想法转化为AI驱动的绘画。",
+          "categories": [
+            "draw"
+          ]
+        },
+
+        {
+          "url": "https://github.com/features/copilot/",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "name": "Copilot",
+          "description": "github出品，编程智能提示",
+          "categories": [
+            "code"
+          ]
+        },
+
+        {
+          "url": "https://welm.weixin.qq.com/docs/",
+          "icon": "https://welm.weixin.qq.com/docs/images/favicon.png",
+          "name": "WeLM",
+          "description": "微信出品的通用文本语言模型",
+          "categories": [
+            "other"
+          ]
+        },
+        {
+          "url": "https://www.zmo.ai/",
+          "icon": "https://www.zmo.ai/wp-content/uploads/2022/05/cropped-favcon-192x192.png",
+          "name": "ZMO.AI",
+          "description": "对象删除工具、艺术生成、图像编辑等",
+          "categories": [
+            "other"
+          ]
+        },
+        {
+          "url": "https://myraah.io/visualmind",
+          "icon": "https://myraah.io/themev3/static/img/favicon.png",
+          "name": "Myraah",
+          "description": "AI网页美观度评分",
+          "categories": [
+            "other"
+          ]
+        },
+        {
+          "url": "https://quickdraw.withgoogle.com/",
+          "icon": "https://quickdraw.withgoogle.com/static/favicon-196.png",
+          "name": "快速涂鸦",
+          "description": "你画AI猜",
+          "categories": [
+            "other"
+          ]
+        },
+        {
+          "url": "https://luban.aliyun.com/",
+          "icon": "https://g.alicdn.com/acca/resource/luban/image/favicon.png",
+          "name": "鹿班",
+          "description": "阿里出品，让设计更美好",
+          "categories": [
+            "other"
+          ]
+        },
+        {
+          "url": "https://github.com/XiuweiHe/EmotionClassifier",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "name": "EmotionClassifier",
+          "description": "表情识别",
+          "categories": [
+            "other"
+          ]
+        },
+        {
+          "url": "https://boredhumans.com/",
+          "icon": "https://boredhumans.com/favicon.ico",
+          "name": "BoredHumans.com",
+          "description": "AI游戏、假人、计算机生成的艺术、机器学习演示等等",
+          "categories": [
+            "other"
+          ]
+        },
+
+        {
+          "url": "https://en.craft.ai/",
+          "icon": "https://uploads-ssl.webflow.com/6297240102e0b099735a6364/62a0cef5225a3b65e1813023_FAvicon%20(3).png",
+          "name": "Craft AI",
+          "description": "The MLOps Platform",
+          "categories": [
+            "platform"
+          ]
+        },
+        {
+          "url": "https://modelscope.cn/",
+          "icon": "images/other/modelscope.cn.png",
+          "name": "魔搭ModelScope",
+          "description": "模型开源社区",
+          "categories": [
+            "platform"
           ]
         }
       ]
