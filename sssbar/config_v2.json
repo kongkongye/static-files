@@ -63,6 +63,24 @@
       ]
     },
     {
+      "id": "emoji",
+      "name": "emoji大全",
+      "categories": [
+        "tool"
+      ],
+      "icon": "images/emoji.svg",
+      "pages": [
+        {
+          "type": "rss",
+          "code": "emoji",
+          "name": "emoji大全",
+          "cmds": [
+            "emoji大全"
+          ]
+        }
+      ]
+    },
+    {
       "id": "speedtest",
       "name": "网速测试",
       "categories": [
