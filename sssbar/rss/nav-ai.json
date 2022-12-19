@@ -25,6 +25,10 @@
       "name": "声音"
     },
     {
+      "code": "model",
+      "name": "模型"
+    },
+    {
       "code": "draw",
       "name": "画画"
     },
@@ -272,6 +276,16 @@
           "description": "文字转语音。",
           "categories": [
             "sound"
+          ]
+        },
+
+        {
+          "url": "https://dreamfusion3d.github.io/",
+          "icon": "https://dreamfusion3d.github.io/favicon.ico",
+          "name": "DreamFusion",
+          "description": "文字转模型。",
+          "categories": [
+            "model"
           ]
         },
 
