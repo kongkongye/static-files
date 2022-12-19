@@ -104,6 +104,25 @@
       ]
     },
     {
+      "id": "nav-ai",
+      "name": "AI工具导航",
+      "categories": [
+        "explore"
+      ],
+      "icon": "images/ai.svg",
+      "pages": [
+        {
+          "type": "rss",
+          "code": "nav-ai",
+          "name": "AI工具导航",
+          "description": "AI工具网站导航",
+          "cmds": [
+            "AI工具导航"
+          ]
+        }
+      ]
+    },
+    {
       "id": "image",
       "name": "随机图片",
       "categories": [

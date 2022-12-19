@@ -1,0 +1,32 @@
+{
+  "hideAll": true,
+  "highlight": true,
+  "wrap": true,
+  "basis": 150,
+  "categories": [
+    {
+      "code": "chat",
+      "name": "社交"
+    },
+    {
+      "code": "code",
+      "name": "编程"
+    }
+  ],
+  "trees": [
+    {
+      "id": "websites",
+      "name": "网站列表",
+      "children": [
+        {
+          "url": "https://chat.openai.com/chat",
+          "icon": "https://chat.openai.com/favicon.ico",
+          "name": "ChatGPT",
+          "categories": [
+            "chat"
+          ]
+        }
+      ]
+    }
+  ]
+}
