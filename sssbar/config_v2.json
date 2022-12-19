@@ -58,7 +58,8 @@
           "name": "特殊字符大全",
           "cmds": [
             "特殊字符大全"
-          ]
+          ],
+          "disableInput": true
         }
       ]
     },
@@ -97,7 +98,8 @@
           ],
           "_iframe": {
             "url": "https://plugin.speedtest.cn/"
-          }
+          },
+          "disableInput": true
         }
       ]
     },
@@ -116,7 +118,8 @@
           "cmds": [
             "随机图片",
             "random images"
-          ]
+          ],
+          "disableInput": true
         }
       ]
     },
@@ -273,7 +276,8 @@
           "cmds": [
             "关于",
             "about"
-          ]
+          ],
+          "disableInput": true
         }
       ]
     }
