@@ -1,0 +1,39 @@
+name: deploy
+
+on:
+# 支持手动触发
+  workflow_dispatch:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+          matrix:
+            node-version: [18.12.1]
+
+    steps:
+      # load repo to /github/workspace
+    - uses: actions/checkout@v3
+      with:
+          repository: kongkongye/static-files
+          fetch-depth: 0
+    - name: upload files to OSS
+      uses: docker://fangbinwei/aliyun-oss-website-action:v1
+      env:
+        ACCESS_KEY_ID: ${{ secrets.accessKeyId }}
+        ACCESS_KEY_SECRET: ${{ secrets.accessKeySecret }}
+        BUCKET: ssstab-static-files
+        ENDPOINT: oss-cn-hangzhou.aliyuncs.com
+        FOLDER: ./
+        EXCLUDE: |
+          .idea
+          .github
+          .gitignore
+        HTML_CACHE_CONTROL: no-cache
+        IMAGE_CACHE_CONTROL: max-age=864001
+        OTHER_CACHE_CONTROL: max-age=2592001
+        SKIP_SETTING: true
