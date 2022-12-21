@@ -30,9 +30,9 @@ jobs:
         ENDPOINT: oss-cn-hangzhou.aliyuncs.com
         FOLDER: ./
         EXCLUDE: |
-          .idea
-          .github
-          .gitignore
+          .idea/
+          .github/
+          .gitignore/
         HTML_CACHE_CONTROL: no-cache
         IMAGE_CACHE_CONTROL: max-age=864001
         OTHER_CACHE_CONTROL: max-age=2592001
