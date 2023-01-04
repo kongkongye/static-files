@@ -281,7 +281,7 @@
     },
     {
       "id": "about",
-      "name": "关于",
+      "name": "联系方式",
       "categories": [
         "more"
       ],
@@ -290,10 +290,10 @@
         {
           "type": "markdown",
           "code": "about",
-          "name": "关于",
+          "name": "联系方式",
           "description": "查看应用介绍，联系方式等信息",
           "cmds": [
-            "关于",
+            "联系方式",
             "about"
           ],
           "disableInput": true
