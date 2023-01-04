@@ -7,4 +7,4 @@ sssbar是一个浏览器快捷搜索框。
    1. 在utools插件市场搜索`sssbar`即可
 
 ## 联系方式
-邮箱: kongkongye@163.com
+QQ群: [261231832](https://jq.qq.com/?_wv=1027&k=uWvKnSZM)
