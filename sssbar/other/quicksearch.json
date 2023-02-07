@@ -1,0 +1,71 @@
+{
+  "tree": {
+    "children": [
+      {
+        "name": "文字搜索",
+        "description": "搜索谷歌,bing,百度,duckduckgo.",
+        "icon": "images/search.svg",
+        "extra": "4个网站",
+        "_urls": [
+          "https://www.google.com/search?q={q}",
+          "https://cn.bing.com/search?q={q}",
+          "https://www.baidu.com/s?wd={q}",
+          "https://duckduckgo.com/?q={q}"
+        ]
+      },
+      {
+        "name": "图片搜索",
+        "description": "搜索谷歌,bing,百度,duckduckgo.",
+        "icon": "images/search.svg",
+        "extra": "4个网站",
+        "_urls": [
+          "https://www.google.com/search?q={q}&tbm=isch",
+          "https://cn.bing.com/images/search?q={q}",
+          "https://image.baidu.com/search/index?tn=baiduimage&word={q}",
+          "https://duckduckgo.com/?q={q}&iax=images&ia=images"
+        ]
+      },
+      {
+        "name": "知识搜索",
+        "description": "搜索Wiki,Stack Exchange,Quora,知乎,豆瓣.",
+        "icon": "images/search.svg",
+        "extra": "5个网站",
+        "_urls": [
+          "https://en.wikipedia.org/w/index.php?search={q}",
+          "https://stackexchange.com/search?q={q}",
+          "https://www.quora.com/search?q={q}",
+          "https://www.zhihu.com/search?type=content&q={q}",
+          "https://www.douban.com/search?q={q}"
+        ]
+      },
+      {
+        "name": "技术搜索",
+        "description": "搜索谷歌,Github,Stackoverflow.",
+        "icon": "images/search.svg",
+        "extra": "3个网站",
+        "_urls": [
+          "https://www.google.com/search?q={q}",
+          "https://github.com/search?q={q}",
+          "https://stackoverflow.com/search?q={q}"
+        ]
+      },
+      {
+        "name": "图标搜索",
+        "description": "搜索iconfont,flaticon,iconfinder,icons8,fontawesome.",
+        "icon": "images/search.svg",
+        "extra": "5个网站",
+        "_urls": [
+          "https://www.iconfont.cn/search/index?searchType=icon&q={q}",
+          "https://www.flaticon.com/search?word={q}",
+          "https://www.iconfinder.com/search?q={q}",
+          "https://icons8.com/icons/set/{q}",
+          "https://fontawesome.com/search?q={q}"
+        ]
+      }
+    ],
+    "id": "quicksearch",
+    "name": "配置列表"
+  },
+  "inNewWindow": true,
+  "incognito": false
+}
