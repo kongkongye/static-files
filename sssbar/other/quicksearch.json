@@ -27,11 +27,12 @@
       },
       {
         "name": "知识搜索",
-        "description": "搜索Wiki,Stack Exchange,Quora,知乎,豆瓣.",
+        "description": "搜索Wiki,wikiHow,Stack Exchange,Quora,知乎,豆瓣.",
         "icon": "images/search.svg",
         "extra": "5个网站",
         "_urls": [
           "https://en.wikipedia.org/w/index.php?search={q}",
+          "https://www.wikihow.com/wikiHowTo?search={q}",
           "https://stackexchange.com/search?q={q}",
           "https://www.quora.com/search?q={q}",
           "https://www.zhihu.com/search?type=content&q={q}",
