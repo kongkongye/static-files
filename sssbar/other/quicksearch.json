@@ -62,6 +62,20 @@
           "https://icons8.com/icons/set/{q}",
           "https://fontawesome.com/search?q={q}"
         ]
+      },
+      {
+        "name": "插画搜索",
+        "description": "搜索pixabay,iconfont,flaticon,iconfinder,freeimages,igoutu.",
+        "icon": "images/search.svg",
+        "extra": "6个网站",
+        "_urls": [
+          "https://pixabay.com/zh/illustrations/search/{q}",
+          "https://www.iconfont.cn/search/index?searchType=illustration&q={q}",
+          "https://www.flaticon.com/search?word={q}&type=sticker",
+          "https://www.iconfinder.com/search/illustrations?q={q}",
+          "https://www.freeimages.com/illustrations/{q}",
+          "https://igoutu.cn/illustrations/t/{q}"
+        ]
       }
     ],
     "id": "quicksearch",
