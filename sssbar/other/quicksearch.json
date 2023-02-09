@@ -65,7 +65,7 @@
       },
       {
         "name": "插画搜索",
-        "description": "搜索pixabay,iconfont,flaticon,iconfinder,freeimages,igoutu.",
+        "description": "搜索pixabay,iconfont,flaticon,iconfinder,freeimages,icons8.",
         "icon": "images/search.svg",
         "extra": "6个网站",
         "_urls": [
@@ -74,7 +74,7 @@
           "https://www.flaticon.com/search?word={q}&type=sticker",
           "https://www.iconfinder.com/search/illustrations?q={q}",
           "https://www.freeimages.com/illustrations/{q}",
-          "https://igoutu.cn/illustrations/t/{q}"
+          "https://icons8.com/illustrations/t/{q}"
         ]
       }
     ],
