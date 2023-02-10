@@ -64,7 +64,8 @@
         {
           "code": "_settings",
           "name": "应用设置",
-          "hidden": true
+          "hidden": true,
+          "disableInput": true
         }
       ]
     },
