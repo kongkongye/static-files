@@ -1,0 +1,331 @@
+{
+  "logo": "images/logo.png",
+  "homeUrl": "https://bar.ssstab.com",
+  "rootCategories": [
+    {
+      "code": "tool",
+      "name": "工具",
+      "description": "快捷找到想要的工具",
+      "icon": "images/tool.svg"
+    },
+    {
+      "code": "explore",
+      "name": "探索",
+      "description": "探索与发现",
+      "icon": "images/explore.svg"
+    },
+    {
+      "code": "chrome",
+      "name": "扩展版",
+      "description": "chrome浏览器扩展版",
+      "icon": "images/chrome.svg"
+    },
+    {
+      "code": "more",
+      "name": "更多",
+      "icon": "images/more.svg"
+    }
+  ],
+  "apps": [
+    {
+      "id": "tool",
+      "name": "在线工具搜索",
+      "categories": [
+        "tool"
+      ],
+      "icon": "images/web.svg",
+      "pages": [
+        {
+          "code": "main",
+          "name": "工具搜索",
+          "description": "在线工具网页搜索",
+          "cmds": [
+            "在线工具搜索",
+            "tools search"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quicksearch",
+      "name": "快捷搜索",
+      "categories": [
+        "tool"
+      ],
+      "icon": "images/search.svg",
+      "pages": [
+        {
+          "code": "main",
+          "name": "快捷搜索",
+          "description": "一次搜索多个网站",
+          "cmds": [
+            "快捷搜索",
+            "quick search"
+          ]
+        },
+        {
+          "code": "_settings",
+          "name": "应用设置",
+          "hidden": true,
+          "disableInput": true
+        }
+      ]
+    },
+    {
+      "id": "chars",
+      "name": "特殊字符大全",
+      "categories": [
+        "tool"
+      ],
+      "icon": "images/chars.svg",
+      "pages": [
+        {
+          "type": "rss",
+          "code": "chars",
+          "name": "特殊字符大全",
+          "cmds": [
+            "特殊字符大全"
+          ],
+          "disableInput": true
+        }
+      ]
+    },
+    {
+      "id": "emoji",
+      "name": "emoji大全",
+      "categories": [
+        "tool"
+      ],
+      "icon": "images/emoji.svg",
+      "pages": [
+        {
+          "type": "rss",
+          "code": "emoji",
+          "name": "emoji大全",
+          "cmds": [
+            "emoji大全"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "speedtest",
+      "name": "网速测试",
+      "categories": [
+        "tool"
+      ],
+      "icon": "images/speedtest.svg",
+      "pages": [
+        {
+          "type": "iframe",
+          "code": "main",
+          "name": "网速测试",
+          "cmds": [
+            "网速测试"
+          ],
+          "_iframe": {
+            "url": "https://plugin.speedtest.cn/"
+          },
+          "disableInput": true
+        }
+      ]
+    },
+    {
+      "id": "nav-ai",
+      "name": "AI工具导航",
+      "categories": [
+        "explore"
+      ],
+      "icon": "images/ai.svg",
+      "pages": [
+        {
+          "type": "rss",
+          "code": "nav-ai",
+          "name": "AI工具导航",
+          "description": "AI工具网站导航",
+          "cmds": [
+            "AI工具导航"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "image",
+      "name": "随机图片",
+      "categories": [
+        "explore"
+      ],
+      "icon": "images/image.svg",
+      "pages": [
+        {
+          "code": "main",
+          "name": "随机图片",
+          "description": "随机图片展示",
+          "cmds": [
+            "随机图片",
+            "random images"
+          ],
+          "disableInput": true
+        }
+      ]
+    },
+    {
+      "id": "wormhole",
+      "name": "虫洞",
+      "categories": [
+        "explore"
+      ],
+      "icon": "images/wormhole.gif",
+      "pages": [
+        {
+          "type": "rss",
+          "code": "wormhole",
+          "name": "虫洞",
+          "description": "十年之约正式成员的博客列表",
+          "cmds": [
+            "虫洞"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travellings",
+      "name": "开往",
+      "categories": [
+        "explore"
+      ],
+      "icon": "images/travelling.svg",
+      "pages": [
+        {
+          "type": "rss",
+          "code": "travellings",
+          "name": "开往",
+          "description": "开往博客列表",
+          "cmds": [
+            "开往"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tab",
+      "name": "标签页搜索",
+      "categories": [
+        "chrome"
+      ],
+      "icon": "images/tab.svg",
+      "pages": [
+        {
+          "code": "tab",
+          "name": "标签页搜索",
+          "description": "打开的标签页搜索",
+          "cmds": [
+            "标签页搜索",
+            {
+              "type": "plain",
+              "value": "Tab Search"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bookmark",
+      "name": "书签搜索",
+      "categories": [
+        "chrome"
+      ],
+      "icon": "images/bookmark.svg",
+      "pages": [
+        {
+          "code": "main",
+          "name": "书签搜索",
+          "description": "浏览器书签搜索",
+          "cmds": [
+            "书签搜索",
+            "Bookmark Search"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "name": "历史搜索",
+      "categories": [
+        "chrome"
+      ],
+      "icon": "images/history.svg",
+      "pages": [
+        {
+          "code": "main",
+          "name": "历史搜索",
+          "description": "浏览器历史记录搜索",
+          "cmds": [
+            "历史搜索",
+            "History Search"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "extension",
+      "name": "扩展搜索",
+      "categories": [
+        "chrome"
+      ],
+      "icon": "images/extension.svg",
+      "pages": [
+        {
+          "code": "main",
+          "name": "扩展搜索",
+          "description": "浏览器已安装扩展搜索",
+          "cmds": [
+            "扩展搜索",
+            "Extension Search"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "builtin",
+      "name": "内置页面",
+      "categories": [
+        "chrome"
+      ],
+      "icon": "images/chrome.svg",
+      "pages": [
+        {
+          "code": "main",
+          "name": "内置页面",
+          "description": "打开各种浏览器内置页面",
+          "cmds": [
+            "浏览器内置页面",
+            "builtin page",
+            "inner page"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "name": "联系方式",
+      "categories": [
+        "more"
+      ],
+      "icon": "images/sssbar_128.png",
+      "pages": [
+        {
+          "type": "markdown",
+          "code": "about",
+          "name": "联系方式",
+          "description": "查看应用介绍，联系方式等信息",
+          "cmds": [
+            "联系方式",
+            "about"
+          ],
+          "disableInput": true
+        }
+      ]
+    }
+  ]
+}
